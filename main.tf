@@ -128,6 +128,7 @@ resource "aws_instance" "hashicat" {
 
   tags = {
     Department = "devops"
+    Billable = "true"
   }
 }
 
